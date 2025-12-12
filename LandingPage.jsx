@@ -522,9 +522,9 @@ const Equipe = memo(() => {
     {
       name: 'Matheus Ribeiro',
       role: 'Desenvolvedor',
-      description: 'Desenvolvedor responsável pela criação e manutenção do sistema do Programa Afeto.',
+      description: 'Desenvolvedor de Software Júnior, com experiência em gestão de equipes e pesquisa em propriedade intelectual e saúde mental. Focado em soluções inovadoras e resolução de problemas.',
       image: '/equipe/Matheus.jpeg',
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/matheus-ribeiro-6bb921343/',
     },
     {
       name: 'Izaque Nicolas',
@@ -542,10 +542,10 @@ const Equipe = memo(() => {
     },
     {
       name: 'Thays Cristina',
-      role: 'Administradora - Coordenadora de Qualidade, Inovação e Marketing',
-      description: 'Responsável pela gestão estratégica, qualidade, inovação e comunicação do Programa Afeto.',
+      role: 'Administradora',
+      description: 'Coordenadora de Qualidade, Inovação e Marketing. Idealizadora do Programa Afeto, responsável pela parte intelectual.',
       image: '/equipe/Thays.JPG',
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/thais-cristina-lima-833155119/',
     },
   ]
 
