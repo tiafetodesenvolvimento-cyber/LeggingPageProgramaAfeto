@@ -529,16 +529,16 @@ const Equipe = memo(() => {
     {
       name: 'Izaque Nicolas',
       role: 'Desenvolvedor',
-      description: 'Desenvolvedor especializado em soluções tecnológicas e melhorias do sistema.',
+      description: 'Desenvolvedor de Software Júnior, com experiência no desenvolvimento de sistemas SaaS e em pesquisas na área de Engenharia de Software.',
       image: '/equipe/Izaque.jpeg',
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/izaque-nicolas-8707912bb/',
     },
     {
       name: 'Amanda Nascimento',
       role: 'Desenvolvedora',
-      description: 'Desenvolvedora dedicada ao desenvolvimento e melhorias do sistema.',
+      description: 'Experiência no desenvolvimento de sites e sistemas, gestão de dados em nuvem e pesquisas em Engenharia de Software.',
       image: '/equipe/Amanda.jpeg',
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/amanda-nascimento-4b4541336/',
     },
     {
       name: 'Thays Cristina',
@@ -908,7 +908,7 @@ function LandingPage() {
   }, [scrollToSection])
 
   const handleLogin = useCallback(() => {
-    window.location.href = '/login'
+    window.location.href = 'https://main.d2prrtiyzobbr8.amplifyapp.com/'
   }, [])
 
   return (
