@@ -536,7 +536,7 @@ const Equipe = memo(() => {
     {
       name: 'Amanda Nascimento',
       role: 'Desenvolvedora',
-      description: 'Experiência no desenvolvimento de sites e sistemas, gestão de dados em nuvem e pesquisas em Engenharia de Software.',
+      description: 'Desenvolvedora de Software Júnior, com experiência em desenvolvimento de sites e sistemas, Análise de Dados e Nuvem, com pesquisas na área de Engenharia de Software.',
       image: '/equipe/Amanda.jpeg',
       linkedin: 'https://www.linkedin.com/in/amanda-nascimento-4b4541336/',
     },
