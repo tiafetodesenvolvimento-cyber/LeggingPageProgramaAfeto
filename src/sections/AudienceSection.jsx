@@ -61,7 +61,7 @@ export default function AudienceSection() {
       <div className="max-w-7xl mx-auto">
 
         <SectionHeading subtitle="Um sistema para quem atua com responsabilidade educacional.">
-          Para quem é o NexxuS?
+          Para quem é o Afeto'S?
         </SectionHeading>
 
         <div className="grid gap-14">

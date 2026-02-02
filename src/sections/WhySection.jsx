@@ -29,7 +29,7 @@ export default function WhySection() {
         
         {/* Título */}
         <SectionHeading>
-          Por que o NexxuS existe?
+          Por que o Afeto'S existe?
         </SectionHeading>
 
         {/* Texto introdutório */}

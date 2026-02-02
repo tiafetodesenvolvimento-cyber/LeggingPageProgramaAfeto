@@ -16,7 +16,7 @@ export default function CTASection() {
         </motion.h2>
 
         <motion.p className="text-2xl text-blue-100 mb-20 max-w-3xl mx-auto leading-relaxed font-medium opacity-80">
-          Conheça o NEXXUS e leve mais clareza, organização e propósito para o acompanhamento educacional.
+          Conheça o Afeto'S e leve mais clareza, organização e propósito para o acompanhamento educacional.
         </motion.p>
 
         <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">

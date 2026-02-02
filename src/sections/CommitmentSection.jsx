@@ -21,7 +21,7 @@ export default function CommitmentSection() {
 
         {/* Texto institucional */}
         <p className="mt-6 text-lg text-gray-600 font-medium leading-relaxed max-w-3xl mx-auto">
-          O <span className="font-bold text-nexxusBlue">NEXXUS</span> é um sistema que une
+          O <span className="font-bold text-nexxusBlue">Afeto'S</span> é um sistema que une
           <span className="font-bold"> ciência</span>, <span className="font-bold">educação</span> e
           <span className="font-bold"> cuidado</span>, com responsabilidade ética, respeito à diversidade
           e foco no desenvolvimento integral da criança.

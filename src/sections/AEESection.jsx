@@ -15,7 +15,7 @@ export default function AEESection() {
 
         {/* Texto explicativo — agora mais próximo do título */}
         <p className="mt-1 max-w-5xl text-lg text-gray-700 font-medium leading-relaxed">
-          O <span className="font-bold text-nexxusBlue">NEXXUS</span> fortalece a atuação do
+          O <span className="font-bold text-nexxusBlue">Afeto'S</span> fortalece a atuação do
           Atendimento Educacional Especializado (AEE), oferecendo suporte de forma ética,
           documentada e alinhada à legislação educacional vigente.
         </p>

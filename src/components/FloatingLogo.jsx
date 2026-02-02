@@ -77,8 +77,8 @@ export default function FloatingLogo() {
         className="relative z-10 w-[80%] h-[80%] flex items-center justify-center"
       >
         <img
-          src="/logo_nexxus.png"
-          alt="Nexxus Logo"
+          src="/logo_afetoA.png"
+          alt="AfetoS Logo"
           className="w-full h-full object-contain drop-shadow-[0_30px_60px_rgba(1,38,119,0.35)]"
         />
       </motion.div>

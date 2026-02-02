@@ -37,7 +37,7 @@ export default function HeroSection() {
 
           {/* Título */}
           <h1 className="text-7xl md:text-8xl lg:text-9xl font-black text-nexxusBlue leading-[0.8] mb-10 tracking-tighter">
-            NexxuS
+            Afeto'S
           </h1>
 
           {/* Subtítulo */}
@@ -62,7 +62,7 @@ export default function HeroSection() {
               href="#funcionalidades"
               className="bg-nexxusBlue text-white px-12 py-6 rounded-xl font-black text-base shadow-xl transition-all flex items-center justify-center gap-2"
             >
-              Acessar o NEXXUS <ChevronRight size={18} />
+              Acessar o Afeto'S <ChevronRight size={18} />
             </motion.a>
 
             <motion.a

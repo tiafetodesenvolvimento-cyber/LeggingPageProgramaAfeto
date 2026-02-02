@@ -15,13 +15,13 @@ export default function AboutSection() {
           className="order-2 lg:order-1"
         >
           <SectionHeading>
-            Sobre o NexxuS
+            Sobre o Afeto'S
           </SectionHeading>
 
           {/* Texto mais próximo + justificado */}
           <div className="mt-4 space-y-5 text-xl text-gray-500 font-medium leading-relaxed text-justify">
             <p>
-              O <span className="font-bold text-nexxusBlue">NEXXUS</span> é um sistema desenvolvido
+              O <span className="font-bold text-nexxusBlue">Afeto'S</span> é um sistema desenvolvido
               para apoiar escolas e redes de ensino na avaliação do desenvolvimento infantil, no
               diagnóstico situacional e na elaboração de planos educacionais individualizados, como
               o <span className="font-bold text-nexxusBlue">PEI</span> e o{' '}

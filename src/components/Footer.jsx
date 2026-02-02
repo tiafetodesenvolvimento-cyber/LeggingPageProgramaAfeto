@@ -5,17 +5,17 @@ import { Mail, Phone, Facebook, Instagram, Linkedin } from 'lucide-react'
 const SOCIAL_LINKS = [
   {
     label: 'Facebook',
-    href: 'https://www.facebook.com/institutoafetofloriano',
+    href: 'https://www.facebook.com/p/Instituto-Afeto-61559410830009/',
     icon: Facebook,
   },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/institutoafetofloriano',
+    href: 'https://www.instagram.com/institutoafetofloriano/',
     icon: Instagram,
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/company/instituto-afeto',
+    href: 'https://www.linkedin.com/company/institutoafetofloriano/',
     icon: Linkedin,
   },
   {
@@ -36,7 +36,7 @@ export default function Footer() {
               <div className="w-10 h-10 flex items-center justify-center overflow-hidden">
                 <img src="/logo_nexxus.png" alt="Logo Nexxus" className="w-full h-full object-contain" />
               </div>
-              <span className="text-3xl font-black text-nexxusBlue tracking-tighter">NexxuS</span>
+              <span className="text-3xl font-black text-nexxusBlue tracking-tighter">Afeto'S</span>
             </div>
 
             <p className="text-lg text-gray-400 font-medium leading-relaxed italic">
@@ -84,7 +84,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li>
                 <a href="#sobre" className="text-lg text-gray-500 font-bold hover:text-nexxusBlue transition-colors">
-                  Sobre o NexxuS
+                  Sobre o Afeto'S
                 </a>
               </li>
 

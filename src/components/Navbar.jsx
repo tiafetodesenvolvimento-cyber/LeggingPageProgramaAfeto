@@ -39,7 +39,7 @@ export default function Navbar() {
             />
           </div>
           <span className="text-2xl font-black tracking-tighter text-nexxusBlue">
-            NEXXUS
+            Afeto'S
           </span>
         </motion.a>
 
@@ -62,7 +62,7 @@ export default function Navbar() {
             href="#funcionalidades"
             className="bg-nexxusBlue text-white px-8 py-3 rounded-2xl font-black text-sm uppercase tracking-widest transition-all inline-flex items-center gap-3"
           >
-            Conhecer o NEXXUS <ChevronRight size={18} />
+            Conhecer o Afeto'S <ChevronRight size={18} />
           </motion.a>
         </div>
 

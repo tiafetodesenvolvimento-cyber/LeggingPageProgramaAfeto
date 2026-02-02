@@ -19,7 +19,7 @@ export default function FeaturesSection() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <SectionHeading subtitle="Funcionalidades pensadas para a prática educacional inclusiva.">
-            O que o NexxuS oferece?
+            O que o Afeto'S oferece?
           </SectionHeading>
         </div>
 

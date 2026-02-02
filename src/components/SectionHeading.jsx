@@ -12,7 +12,7 @@ export default function SectionHeading({ children, subtitle, light = false }) {
           light ? 'bg-white/10 text-white' : 'bg-blue-50 text-nexxusBlue'
         }`}
       >
-        Onde tem Nexxus, tem Afeto!
+        Aqui tem Afeto!
       </motion.div>
 
       <motion.h2
