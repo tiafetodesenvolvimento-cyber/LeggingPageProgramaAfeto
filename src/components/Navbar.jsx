@@ -31,10 +31,10 @@ export default function Navbar() {
           className="flex items-center gap-3 cursor-pointer"
           href="#top"
         >
-          <div className="w-10 h-10 flex items-center justify-center overflow-hidden">
+          <div className="w-11 h-11 flex items-center justify-center overflow-hidden">
             <img
-              src="/logo_nexxus.png"
-              alt="Nexxus Logo Symbol"
+              src="/logo_afetoA.png"
+              alt="Afeto'S Logo Symbol"
               className="w-full h-full object-contain"
             />
           </div>
