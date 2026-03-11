@@ -1,22 +1,18 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
+import ScrollToTop from '../components/ScrollToTop'
+import PageTransition from '../components/PageTransition'
 
-import Home from './pages/Home'
-import SobreAfetoS from './pages/SobreAfetoS'
-import RecursosPedagogicos from './pages/RecursosPedagogicos'
+import Home from '../pages/Home'
+import SobreAfetoS from '../pages/SobreAfetoS'
+import RecursosPedagogicos from '../pages/RecursosPedagogicos'
 
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import ScrollToTop from './components/ScrollToTop'
-import PageTransition from './components/PageTransition'
-
-function AnimatedRoutes() {
+export default function AnimatedRoutes() {
   const location = useLocation()
 
   return (
     <>
-      {/* ✅ sempre vai pro topo ao trocar rota */}
       <ScrollToTop />
 
       <AnimatePresence mode="wait">
@@ -29,6 +25,7 @@ function AnimatedRoutes() {
               </PageTransition>
             }
           />
+
           <Route
             path="/sobre-nexxus"
             element={
@@ -37,6 +34,7 @@ function AnimatedRoutes() {
               </PageTransition>
             }
           />
+
           <Route
             path="/recursos-pedagogicos"
             element={
@@ -48,20 +46,5 @@ function AnimatedRoutes() {
         </Routes>
       </AnimatePresence>
     </>
-  )
-}
-
-export default function App() {
-  return (
-    <BrowserRouter>
-      {/* ✅ Navbar fixa */}
-      <Navbar />
-
-      {/* ✅ páginas animadas */}
-      <AnimatedRoutes />
-
-      {/* ✅ Footer fixo */}
-      <Footer />
-    </BrowserRouter>
   )
 }
